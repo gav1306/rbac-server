@@ -1,0 +1,17 @@
+{
+  "name": "rbac-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "author": "Gayatri Patil",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^8.8.3"
+  }
+}
