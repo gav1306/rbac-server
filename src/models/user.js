@@ -20,5 +20,9 @@ const UserSchema = new mongoose.Schema({
     ref: "Role",
     required: [true, "Please provide a role"],
   },
+  owner: {
+    type: Boolean,
+    default: false,
+  },
 });
 module.exports = mongoose.model("User", UserSchema);
